@@ -1,4 +1,4 @@
-import Options from "./Created Comp/Options.js";
+import Options from "./Options.js";
 function Question({ question }) {
   console.log(question);
   return (

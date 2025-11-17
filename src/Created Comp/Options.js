@@ -1,4 +1,4 @@
-export default function Options(question) {
+function Options({ question }) {
   return (
     <div>
       {question.options.map((option) => (
@@ -9,3 +9,5 @@ export default function Options(question) {
     </div>
   );
 }
+
+export default Options;
